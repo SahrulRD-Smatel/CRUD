@@ -1,21 +1,29 @@
-# CRUD
-// The package.json is not required to run README-MD-GENERATOR
-{
-  "name": "readme-md-generator",
-  "version": "0.1.3",
-  "description": "CLI that generates beautiful README.md files.",
-  "author": "Franck Abgrall",
-  "license": "MIT",
-  "homepage": "https://github.com/kefranabg/readme-md-generator#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kefranabg/readme-md-generator.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kefranabg/readme-md-generator/issues"
-  },
-  "engines": {
-    "npm": ">=5.5.0",
-    "node": ">=9.3.0"
-  }
-}
+# Foobar
+
+Foobar is a Python library for dealing with word pluralization.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
